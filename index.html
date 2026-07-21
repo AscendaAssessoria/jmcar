@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K7CRSZZR');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JM Car Auto Center | Especialistas em Módulo ABS e Mecânica</title>
+<meta name="description" content="Reparo e reprogramação de módulo ABS, injeção eletrônica, airbag e mecânica em geral. Diagnóstico preciso e garantia. Atendemos Abaetetuba, Barcarena, Vigia e Tailândia. Fale no WhatsApp.">
+<style>
+  :root{
+    --preto:#0d0d0f;
+    --preto2:#16161a;
+    --carvao:#1f1f24;
+    --ouro:#e0a83b;
+    --ouro-claro:#f4cd6d;
+    --branco:#f5f3ef;
+    --cinza:#a4a1a0;
+    --wpp:#25d366;
+    --linha:rgba(224,168,59,.18);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    background:var(--preto);color:var(--branco);line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+
+  /* HEADER */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(13,13,15,.92);backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--linha);
+  }
+  .hd{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;max-width:1080px;margin:0 auto}
+  .logo{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:.5px;font-size:1.05rem}
+  .logo .mark{
+    width:40px;height:40px;border-radius:50%;
+    background:radial-gradient(circle at 50% 35%,#2a2a30,#0d0d0f);
+    border:2px solid var(--ouro);display:grid;place-items:center;
+    color:var(--ouro);font-weight:900;font-size:.82rem;
+  }
+  .logo span b{color:var(--ouro)}
+  .hd-cta{
+    display:inline-flex;align-items:center;gap:7px;
+    background:var(--wpp);color:#053d1c;font-weight:800;
+    padding:10px 18px;border-radius:8px;text-decoration:none;font-size:.9rem;
+    transition:transform .15s ease,filter .15s ease;white-space:nowrap;
+  }
+  .hd-cta:hover{transform:translateY(-1px);filter:brightness(1.05)}
+  .hd .hd-cta .n{display:none}
+  @media(min-width:640px){.hd .hd-cta .n{display:inline}}
+
+  /* HERO */
+  .hero{
+    position:relative;overflow:hidden;
+    background:
+      radial-gradient(1100px 460px at 78% -10%,rgba(224,168,59,.16),transparent 60%),
+      linear-gradient(180deg,#101014,#0d0d0f);
+    border-bottom:1px solid var(--linha);
+  }
+  .hero-grid{display:grid;gap:34px;padding:56px 0 60px}
+  @media(min-width:900px){.hero-grid{grid-template-columns:1.15fr .85fr;align-items:center;padding:72px 0 76px}}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    color:var(--ouro-claro);font-weight:700;font-size:.78rem;
+    letter-spacing:.16em;text-transform:uppercase;margin-bottom:18px;
+    border:1px solid var(--linha);padding:6px 13px;border-radius:100px;
+  }
+  .eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--ouro);box-shadow:0 0 10px var(--ouro)}
+  h1{font-size:clamp(2rem,5.2vw,3.15rem);line-height:1.08;font-weight:800;letter-spacing:-.5px}
+  h1 em{color:var(--ouro);font-style:normal}
+  .sub{color:var(--cinza);font-size:1.06rem;margin:20px 0 30px;max-width:33ch}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:13px}
+  .btn{
+    display:inline-flex;align-items:center;gap:9px;text-decoration:none;
+    font-weight:800;padding:15px 24px;border-radius:10px;font-size:1rem;
+    transition:transform .15s ease,filter .15s ease,box-shadow .15s ease;
+  }
+  .btn-wpp{background:var(--wpp);color:#053d1c;box-shadow:0 8px 26px rgba(37,211,102,.28)}
+  .btn-wpp:hover{transform:translateY(-2px);filter:brightness(1.05)}
+  .btn-ghost{background:transparent;color:var(--branco);border:1.5px solid var(--linha)}
+  .btn-ghost:hover{border-color:var(--ouro);color:var(--ouro-claro)}
+  .trust{display:flex;flex-wrap:wrap;gap:9px 18px;margin-top:28px;color:var(--cinza);font-size:.86rem}
+  .trust b{color:var(--branco)}
+  .trust span{display:inline-flex;align-items:center;gap:6px}
+  .trust span::before{content:"✓";color:var(--ouro);font-weight:900}
+
+  /* HERO CARD (form) */
+  .card{
+    background:linear-gradient(180deg,var(--preto2),var(--carvao));
+    border:1px solid var(--linha);border-radius:18px;padding:26px 24px;
+    box-shadow:0 24px 60px rgba(0,0,0,.5);
+  }
+  .card h3{font-size:1.24rem;margin-bottom:5px}
+  .card p.lead{color:var(--cinza);font-size:.9rem;margin-bottom:18px}
+  .field{margin-bottom:13px}
+  .field label{display:block;font-size:.78rem;color:var(--cinza);margin-bottom:6px;font-weight:600}
+  .field input,.field select{
+    width:100%;padding:12px 13px;border-radius:9px;
+    background:#0c0c0f;border:1px solid #2c2c33;color:var(--branco);
+    font-size:.95rem;font-family:inherit;
+  }
+  .field input:focus,.field select:focus{outline:none;border-color:var(--ouro)}
+  .card .cc-btn{width:100%;justify-content:center;margin-top:11px;border:none;font-size:1.02rem}
+  .card .mini{text-align:center;color:var(--cinza);font-size:.76rem;margin-top:14px}
+
+  /* SECTION SHELL */
+  section.blk{padding:56px 0;border-bottom:1px solid var(--linha)}
+  .sec-eyebrow{color:var(--ouro);font-weight:700;font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;text-align:center;margin-bottom:10px}
+  .sec-title{text-align:center;font-size:clamp(1.5rem,4vw,2.1rem);font-weight:800;letter-spacing:-.4px}
+  .sec-desc{text-align:center;color:var(--cinza);max-width:52ch;margin:12px auto 0}
+
+  /* SERVICES */
+  .svc{display:grid;gap:16px;margin-top:38px}
+  @media(min-width:640px){.svc{grid-template-columns:repeat(2,1fr)}}
+  @media(min-width:900px){.svc{grid-template-columns:repeat(3,1fr)}}
+  .svc-item{
+    background:var(--preto2);border:1px solid var(--linha);border-radius:14px;
+    padding:22px;transition:transform .15s ease,border-color .15s ease;
+  }
+  .svc-item:hover{transform:translateY(-3px);border-color:var(--ouro)}
+  .svc-ic{width:46px;height:46px;border-radius:11px;background:rgba(224,168,59,.12);display:grid;place-items:center;font-size:1.4rem;margin-bottom:14px}
+  .svc-item h4{font-size:1.06rem;margin-bottom:6px}
+  .svc-item.hl{background:linear-gradient(180deg,rgba(224,168,59,.14),var(--preto2));border-color:var(--ouro)}
+  .svc-item.hl .tag{display:inline-block;font-size:.66rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#0d0d0f;background:var(--ouro);padding:3px 9px;border-radius:100px;margin-bottom:11px}
+  .svc-item p{color:var(--cinza);font-size:.9rem}
+
+  /* WHY */
+  .why{display:grid;gap:16px;margin-top:38px}
+  @media(min-width:640px){.why{grid-template-columns:repeat(2,1fr)}}
+  @media(min-width:900px){.why{grid-template-columns:repeat(4,1fr)}}
+  .why-item{text-align:center;padding:20px 14px}
+  .why-ic{font-size:1.9rem;margin-bottom:10px}
+  .why-item h4{font-size:1rem;margin-bottom:5px;color:var(--ouro-claro)}
+  .why-item p{color:var(--cinza);font-size:.85rem}
+
+  /* AREAS */
+  .areas{display:flex;flex-wrap:wrap;justify-content:center;gap:11px;margin-top:32px}
+  .chip{
+    display:inline-flex;align-items:center;gap:7px;
+    background:var(--preto2);border:1px solid var(--linha);
+    padding:11px 18px;border-radius:100px;font-weight:600;font-size:.92rem;
+  }
+  .chip::before{content:"📍"}
+
+  /* FINAL CTA */
+  .final{
+    background:
+      radial-gradient(700px 300px at 50% 0%,rgba(224,168,59,.18),transparent 60%),
+      var(--preto2);
+    text-align:center;padding:64px 0;
+  }
+  .final h2{font-size:clamp(1.7rem,4.5vw,2.4rem);font-weight:800;letter-spacing:-.5px}
+  .final p{color:var(--cinza);margin:14px auto 30px;max-width:46ch}
+  .final .hero-ctas{justify-content:center}
+
+  /* FOOTER */
+  footer{padding:30px 0 96px;text-align:center;color:var(--cinza);font-size:.85rem}
+  footer .logo{justify-content:center;margin-bottom:12px;color:var(--branco)}
+  footer a{color:var(--ouro-claro);text-decoration:none}
+  .ico{width:1.15em;height:1.15em;flex-shrink:0;vertical-align:-.18em}
+  .foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin:18px 0 6px}
+  .foot-links a{
+    display:inline-flex;align-items:center;gap:8px;
+    background:var(--preto2);border:1px solid var(--linha);
+    padding:11px 18px;border-radius:100px;font-weight:700;color:var(--branco);
+    transition:transform .15s ease,border-color .15s ease;
+  }
+  .foot-links a:hover{transform:translateY(-2px);border-color:var(--ouro)}
+  .foot-links .ig-ic{color:#e1306c}
+  .foot-links .map-ic{color:#ea4335}
+  .foot-links .wa-ic{color:var(--wpp)}
+
+  /* STICKY MOBILE BAR */
+  .bar{
+    position:fixed;bottom:0;left:0;right:0;z-index:60;display:grid;
+    grid-template-columns:1fr;border-top:1px solid var(--linha);
+  }
+  .bar a{display:flex;flex-direction:column;align-items:center;gap:2px;padding:11px 6px;text-decoration:none;font-weight:800;font-size:.82rem;color:#fff}
+  .bar .b-wpp{background:var(--wpp);color:#053d1c}
+  .bar small{font-weight:600;font-size:.66rem;opacity:.85}
+  @media(min-width:900px){.bar{display:none}}
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7CRSZZR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <div class="hd">
+    <div class="logo">
+      <div class="mark">JM</div>
+      <span>JM CAR <b>AUTO CENTER</b></span>
+    </div>
+    <a class="hd-cta" href="https://wa.me/5591991731398?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20preciso%20de%20um%20diagn%C3%B3stico." target="_blank" rel="noopener">
+      <svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.9-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.6 1.1 2.8c.1.2 1.8 2.7 4.3 3.8.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3C4.4 15 4 13.5 4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8z"/></svg>
+      WhatsApp<span class="n">: (91) 99173-1398</span>
+    </a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Especialistas em Módulo ABS</span>
+      <h1>Seu freio ABS acendeu no painel? A gente <em>resolve de verdade.</em></h1>
+      <p class="sub">Reparo e reprogramação de módulo ABS, injeção eletrônica, airbag e mecânica em geral — com diagnóstico preciso e garantia.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-wpp" href="https://wa.me/5591991731398?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20preciso%20de%20um%20diagn%C3%B3stico." target="_blank" rel="noopener">
+          <svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.9-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.6 1.1 2.8c.1.2 1.8 2.7 4.3 3.8.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3C4.4 15 4 13.5 4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8z"/></svg>
+          Falar no WhatsApp agora
+        </a>
+      </div>
+      <div class="trust">
+        <span><b>Diagnóstico</b> preciso</span>
+        <span><b>Garantia</b> no serviço</span>
+        <span>Atendimento <b>ágil</b></span>
+      </div>
+    </div>
+
+    <!-- CONTACT CARD -->
+    <div class="card" id="orcamento">
+      <h3>Fale com um especialista</h3>
+      <p class="lead">Atendimento rápido para módulo ABS, mecânica e eletrônica. Sem compromisso.</p>
+      <a class="btn btn-wpp cc-btn" href="https://wa.me/5591991731398?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20preciso%20de%20um%20diagn%C3%B3stico." target="_blank" rel="noopener">
+        <svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.9-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.6 1.1 2.8c.1.2 1.8 2.7 4.3 3.8.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3C4.4 15 4 13.5 4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8z"/></svg>
+        Chamar no WhatsApp
+      </a>
+      <p class="mini">⏱️ Diagnóstico preciso e garantia no serviço.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="blk">
+  <div class="wrap">
+    <p class="sec-eyebrow">O que fazemos</p>
+    <h2 class="sec-title">Serviços da JM Car</h2>
+    <p class="sec-desc">Especialistas em diagnóstico eletrônico e reparo de módulos — sem troca desnecessária de peças.</p>
+    <div class="svc">
+      <div class="svc-item hl">
+        <span class="tag">Especialidade</span>
+        <div class="svc-ic">🛑</div>
+        <h4>Módulo ABS</h4>
+        <p>Reparo e reprogramação de módulos ABS de todas as marcas. Resolvemos a luz de freio acesa sem trocar o módulo à toa.</p>
+      </div>
+      <div class="svc-item hl">
+        <span class="tag">Principal</span>
+        <div class="svc-ic">🔧</div>
+        <h4>Mecânica em Geral</h4>
+        <p>Manutenção preventiva e corretiva com mão de obra qualificada e diagnóstico honesto do que o carro realmente precisa.</p>
+      </div>
+      <div class="svc-item">
+        <div class="svc-ic">⚡</div>
+        <h4>Injeção Eletrônica</h4>
+        <p>Diagnóstico e reparo do sistema de injeção para mais desempenho e economia de combustível.</p>
+      </div>
+      <div class="svc-item">
+        <div class="svc-ic">🎈</div>
+        <h4>Airbag e Módulos</h4>
+        <p>Reparo e reset de módulos de airbag, devolvendo a segurança do seu veículo.</p>
+      </div>
+      <div class="svc-item">
+        <div class="svc-ic">🖥️</div>
+        <h4>Mecatrônica</h4>
+        <p>União de mecânica e eletrônica para diagnósticos que outras oficinas não conseguem resolver.</p>
+      </div>
+      <div class="svc-item">
+        <div class="svc-ic">🔩</div>
+        <h4>Direção Elétrica</h4>
+        <p>Reparo de módulos e sistemas de direção elétrica com precisão e garantia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section class="blk">
+  <div class="wrap">
+    <p class="sec-eyebrow">Onde atendemos</p>
+    <h2 class="sec-title">Região de atendimento</h2>
+    <div class="areas">
+      <span class="chip">Abaetetuba</span>
+      <span class="chip">Barcarena</span>
+      <span class="chip">Vigia</span>
+      <span class="chip">Tailândia</span>
+    </div>
+    <p class="sec-desc" style="margin-top:22px">Não é da sua cidade? Chame no WhatsApp e confirme o atendimento.</p>
+    <div class="hero-ctas" style="justify-content:center;margin-top:30px">
+      <a class="btn btn-wpp" href="https://wa.me/5591991731398?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20preciso%20de%20um%20diagn%C3%B3stico." target="_blank" rel="noopener">
+        <svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.9-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.6 1.1 2.8c.1.2 1.8 2.7 4.3 3.8.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3C4.4 15 4 13.5 4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8z"/></svg>
+        Chamar no WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="logo"><div class="mark">JM</div><span>JM CAR <b style="color:var(--ouro)">AUTO CENTER</b></span></div>
+    <p>Qualidade e eficiência em eletrônica e mecânica automotiva.</p>
+
+    <div class="foot-links">
+      <a href="https://www.instagram.com/jm_carautocenter/" target="_blank" rel="noopener">
+        <svg class="ico ig-ic" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.4-1.3.8-.4.4-.6.8-.8 1.3-.2.4-.3 1-.4 2.1-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1.1.2 1.7.4 2.1.2.5.4.9.8 1.3.4.4.8.6 1.3.8.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.4 1.3-.8.4-.4.6-.8.8-1.3.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.8-1.3-.4-.4-.8-.6-1.3-.8-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1zm0 3.1a4.9 4.9 0 110 9.8 4.9 4.9 0 010-9.8zm0 8.1a3.2 3.2 0 100-6.4 3.2 3.2 0 000 6.4zm6.2-8.3a1.1 1.1 0 11-2.3 0 1.1 1.1 0 012.3 0z"/></svg>
+        @jm_carautocenter
+      </a>
+      <a href="https://www.google.com/maps/search/?api=1&query=Av.+Pedro+Alvares+Cabral+26+Belem+PA" target="_blank" rel="noopener">
+        <svg class="ico map-ic" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C7.6 2 4 5.6 4 10c0 5.2 7 11.6 7.3 11.9.4.4 1 .4 1.4 0C13 21.6 20 15.2 20 10c0-4.4-3.6-8-8-8zm0 11a3 3 0 110-6 3 3 0 010 6z"/></svg>
+        Av. Pedro Álvares Cabral, 26 — Belém/PA
+      </a>
+    </div>
+
+    <p style="margin-top:14px;opacity:.6">© 2026 JM Car Auto Center. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- STICKY MOBILE BAR -->
+<nav class="bar">
+  <a class="b-wpp" href="https://wa.me/5591991731398?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20preciso%20de%20um%20diagn%C3%B3stico." target="_blank" rel="noopener"><span style="display:inline-flex;align-items:center;gap:5px"><svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.9-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.6 1.1 2.8c.1.2 1.8 2.7 4.3 3.8.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3C4.4 15 4 13.5 4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8z"/></svg>Chamar no WhatsApp</span><small>Fale agora com um especialista</small></a>
+</nav>
+
+</body>
+</html>

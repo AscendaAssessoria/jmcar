@@ -1,0 +1,19 @@
+{
+  "name": "jmcar-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page JM Car Auto Center - Especialistas em Modulo ABS e Mecanica",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "build": "echo \"Static site - no build step required\" && exit 0",
+    "start": "echo \"Static site - serve index.html\" && exit 0"
+  },
+  "keywords": [
+    "landing-page",
+    "modulo-abs",
+    "mecanica",
+    "jm-car"
+  ],
+  "author": "JM Car Auto Center",
+  "license": "UNLICENSED"
+}
